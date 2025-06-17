@@ -1,62 +1,25 @@
-# Miscellaneous
-*.lock
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# VS Code
-.vscode/
-
-# Flutter/Dart/Pub related
+# Flutter / Dart / Build-related
 .dart_tool/
+.packages
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-.packages
 build/
 
-# iOS related
-ios/Flutter/.last_build_id
-ios/Pods/
-ios/.generated/
-ios/Flutter/ephemeral
-ios/Flutter/Generated.xcconfig
-ios/Flutter/flutter_assets/
-ios/Flutter/flutter_export_environment.sh
-
-# Android related
-android/.gradle
-android/app/key.properties
-android/gradlew
-android/gradlew.bat
+# Android/iOS generated files
+android/.gradle/
 android/local.properties
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral
+ios/.generated/
 
-# macOS related
+# VSCode
+.vscode/
+.idea/
+
+# macOS / Windows / Linux generated files
 macos/Flutter/ephemeral
-
-# Windows related
-windows/flutter/generated_plugin_registrant.cc
-windows/flutter/generated_plugin_registrant.h
-windows/flutter/generated_plugins.cmake
-
-# Linux related
-linux/flutter/generated_plugin_registrant.cc
-linux/flutter/generated_plugin_registrant.h
-linux/flutter/generated_plugins.cmake
-
-# Symbolication
-app.*.symbols
-
-# Coverage
-coverage/
+windows/Flutter/ephemeral
+linux/Flutter/ephemeral
